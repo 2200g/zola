@@ -1,0 +1,9 @@
+base_url = "https://aadi.net.in"
+compile_sass = false
+build_search_index = false
+
+[markdown]
+highlight_code = true
+
+[extra]
+

@@ -1,4 +1,5 @@
 +++
-title = "links."
-template = "links/links.html"
+title = "blog."
+template = "blog.html"
+sort_by = "date"
 +++

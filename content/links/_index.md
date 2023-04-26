@@ -1,5 +1,5 @@
 +++
 title = "links."
-template = "blog.html"
+template = "links/links.html"
 +++
 

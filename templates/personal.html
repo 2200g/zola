@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
 <head>
   <meta charset="utf-8">
@@ -14,18 +13,11 @@
   <link rel="stylesheet" href="/css/personal.css">
   <link rel="icon" type="image/png" href="/favicon.ico">
 </head>
+{% block content %}
 
 <body>
   <header>
-    <header>
-      <nav>
-        <span>[<a href="/">home.</a>]</span>
-        <span>[<a href="/blog">blog.</a>]</span>
-        <span>[<a href="/personal">personal.</a>]</span>
-        <span>[<a href="/links">links.</a>]</span>
-        <span>[<a href="/contact">contact.</a>]</span>
-      </nav>
-    </header>
+
     <h2>{{ section.title }}</h2>
     <hr />
     <figure>
@@ -57,5 +49,4 @@
     {% endif %}
   </nav>
 </body>
-
-</html>
+{% endblock content %}

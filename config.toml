@@ -6,4 +6,4 @@ build_search_index = false
 highlight_code = true
 
 [extra]
-
+render_emoji = true

@@ -1,3 +1,4 @@
 +++
-title = "zola."
+title = "links."
+template = "links/links.html"
 +++

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>aadi.</title>
@@ -7,10 +8,19 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <span>[<a href="/">home.</a>]</span>
+      <span>[<a href="/blog">blog.</a>]</span>
+      <span>[<a href="/personal">personal.</a>]</span>
+      <span>[<a href="/links">links.</a>]</span>
+      <span>[<a href="/contact">contact.</a>]</span>
+    </nav>
+  </header>
   <section class="section">
-      <div class="container">
+    <div class="container">
       {% block content %} {% endblock %}
-      </div>
+    </div>
   </section>
 </body>
 

@@ -17,6 +17,15 @@
 
 <body>
   <header>
+    <header>
+      <nav>
+        <span>[<a href="/">home.</a>]</span>
+        <span>[<a href="/blog">blog.</a>]</span>
+        <span>[<a href="/personal">personal.</a>]</span>
+        <span>[<a href="/links">links.</a>]</span>
+        <span>[<a href="/contact">contact.</a>]</span>
+      </nav>
+    </header>
     <h2>{{ section.title }}</h2>
     <hr />
     <figure>
@@ -41,10 +50,10 @@
   </div>
   <nav class="pagination">
     {% if paginator.previous %}
-    <a class="previous" href="{{ paginator.previous }}">‹ Prev</a>
+    <a class="previous" href="{{ paginator.previous }}">‹ previous.</a>
     {% endif %}
     {% if paginator.next %}
-    <a class="next" href="{{ paginator.next }}">Next ›</a>
+    <a class="next" href="{{ paginator.next }}">next. ›</a>
     {% endif %}
   </nav>
 </body>

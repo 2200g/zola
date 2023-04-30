@@ -5,7 +5,7 @@ date = 2023-04-04
 description = "discord servers that you should be a part of."
 +++
 a list of discord servers that you should be in.
-<!--more-->
+<!-- more -->
 (this list is going to be updated every once in a while so yeah ignore the date and stuff.)
 
 - one of the best servers that im in: [ctt](https://discord.gg/ctt)

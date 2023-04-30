@@ -10,7 +10,7 @@ tags = [
 ]
 +++
 i talk about brutalism!! :)))
-<!--more-->
+<!-- more -->
 
 ## intro.
 what exactly is brutalism?

@@ -2,11 +2,10 @@
 author = "aadi."
 title = "random stuff."
 date = 2023-04-06
-description = "random settings."
 +++
 
 uhhh random stuff yesyes.
-<!--more-->
+<!-- more -->
 
 okay so .dotfiles (images coming soon!!!!!!!!!! def going to rmmbr to do this!!!!)
 

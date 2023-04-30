@@ -5,7 +5,7 @@ date = 2023-04-09
 description = "cloudflare."
 +++
 how to set up cloudflare for that shiny lockpad and https:// :) (for free.)
-<!--more-->
+<!-- more -->
 `(do note that this process is for a github-pages hosted site. you might need to configure sum else in other cases)`
 
 prerequisites: 

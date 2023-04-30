@@ -3,12 +3,15 @@ author = "aadi."
 title = "bored of etch."
 date = 2023-04-04 
 +++
+
+me going thru phases
+<!-- more -->
 ### okayyy i use zola with no prebuilt theme now <3
 
 old --> 
 
 okay so i use [risotto](https://github.com/joeroe/risotto) now.
-<!--more-->
+
 
 okayyyy soooooooo im already bored of [etch](https://github.com/LukasJoswiak/etch/). 
 

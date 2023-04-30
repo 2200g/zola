@@ -20,35 +20,35 @@ anyways so yeah i used cloudflare's free plan to enable https:// on this website
 once you make a cloudflare account, you need to add your site to it.
 
 to do so, add your site by clicking on the button `add a site`.
-![add a site](/img/cloudflare/addasite.png)
+![add a site](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/addasite.png)
 
 after that, put in your site's url, and click on `add site`.
-![input ur url](/img/cloudflare/inputurl.png)
+![input ur url](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/inputurl.png)
 
 scroll down till you get the free plan, select it and then click on `continue`.
-![free plan yay](/img/cloudflare/freeplanyay.png)
+![free plan yay](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/freeplanyay.png)
 
 confirm that the dns records are matching by heading over to your domain's registrar's dns records.
-![dns records](/img/cloudflare/dnsrecords.png)
+![dns records](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/dnsrecords.png)
 
 after that click on continue and then complete the nameserver set up by following the steps given.
 
 you will have to change the nameservers provided by your domain registrar and replace them with the nameservers assigned by cloudflare.
-![nameservers](/img/cloudflare/nameservers.png)
+![nameservers](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/nameservers.png)
 
 once that is done, click on `check nameservers`.
-![check nameservers](/img/cloudflare/check.png)
+![check nameservers](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/check.png)
 
 it might take a while (around an hour) but you will recieve an email once the process is done. 
 
 ### ssl.
 okay so you will have to select ssl/tls from the sidebar on the left.
-![sidebar](/img/cloudflare/sidebar.png)
+![sidebar](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/sidebar.png)
 
 and then in the overview, you'll have to make sure that the encryption mode is full.
-![encryption](/img/cloudflare/encrypt.png)
+![encryption](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/encrypt.png)
 
 
 ### woo shiny lockpad!1!
 ayyy we now have this shiny little lockpad :)
-![lockpad](/img/cloudflare/lockpad.png)
+![lockpad](https://raw.githubusercontent.com/2200g/img-repo/main/cloudflare/lockpad.png)

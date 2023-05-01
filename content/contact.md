@@ -2,4 +2,4 @@
 title = "contact."
 +++
 
-mail me at 2200g.r3@gmail.com / click [here](mailto://2200g.r3@gmail.com).
+mail me at aadi@aadi.net.in / click [here](mailto://aadi@aadi.net.in).

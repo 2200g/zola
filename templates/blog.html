@@ -3,13 +3,25 @@
 {% block content %}
 <h1 class="title">{{ section.title }}</h1>
 <div id="blog-list">
-	{% for page in section.pages %}
+	{% for page in paginator.pages %}
 	<div id="blog-summ">
 		<h3><a href="{{ page.permalink | safe }}">{{ page.title }} </a></h3>
 		<h5>{{ page.date }}</h5>
 		<p>{{ page.summary | safe }}</p>
 		<a href="{{ page.permalink | safe }}" id="cont-read">read more...</a>
 	</div>
+
 	{% endfor %}
 </div>
+<nav class="pagination">
+	{% if paginator.previous %}
+	<a class="previous" href="{{ paginator.previous }}">‹ prev pg.</a>
+	{% endif %}
+	{% if paginator.previous and paginator.next %}
+	|
+	{% endif %}
+	{% if paginator.next %}
+	<a class="next" href="{{ paginator.next }}">next pg. ›</a>
+	{% endif %}
+</nav>
 {% endblock content %}

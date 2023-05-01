@@ -35,7 +35,7 @@
   <div class="posts">
     {% for page in paginator.pages %}
     <article class="post" id="{{ page.title }}">
-      <h4><a href="#{{ page.title }}"> # </a> {{ page.title }}</h4>
+      <h4><a href="#{{ page.title }}"> # </a> {{ page.title }} ({{ page.date }})</h4>
       <div class="post__summary">
         {{ page.content | safe }}
       </div>

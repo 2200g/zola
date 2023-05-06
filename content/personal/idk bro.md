@@ -7,4 +7,4 @@ idk what im going to be talking about here- im planning to be a journal of sorts
 
 hopefully i wont accidentally dox myself.
 
----
+

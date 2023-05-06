@@ -13,4 +13,4 @@ i am planning on trying to lead a healthy lifestyle while focussing on my studie
 
 india's education system is really messed up, in my opinion, but i'll rant more on that later. 
 
----
+

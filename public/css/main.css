@@ -26,11 +26,10 @@ img {
 	max-width: 700px;
 }
 
-#img-gallery img{
-	    max-width: 240px;
-	    max-height: 150px;
-	    display: inline-block;
-}
+
+
+
+
 
 @media only screen and (max-width: 1700px) {
 	body {
@@ -44,6 +43,12 @@ img {
 		float: none;
 		text-align: center;
 	}
+
+	#img-gallery img{
+		max-width: 240px;
+		max-height: 150px;
+		display: inline-block;
+    	}
 
 
 	nav {
@@ -73,7 +78,11 @@ img {
 		margin: 2px;
 		font-size: 70%;
 	}
-
+	#img-gallery img{
+		max-width: 60px;
+		display: none;
+		}			
+				    }
 
 	main img {
 		max-width: 250px;

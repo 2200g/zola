@@ -7,8 +7,8 @@ the months not over yet but might as well sum up what i did this month.
 
 i uh made two utility scripts - without just skidding off of other people.
 
-- drives.sh -- a command line utility that helps users mount new ext4 drives.
-- notes.sh -- a simple note making cli tool.
+- [drives.sh](https://github.com/2200g/drives.sh) -- a command line utility that helps users mount new ext4 drives.
+- [notes.sh](https://github.com/2200g/notes.sh) -- a simple note making cli tool.
 
 idk why but i am somewhat proud of myself for making them anyways yes.
 

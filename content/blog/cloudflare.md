@@ -34,7 +34,7 @@ confirm that the dns records are matching by heading over to your domain's regis
 after that click on continue and then complete the nameserver set up by following the steps given.
 
 you will have to change the nameservers provided by your domain registrar and replace them with the nameservers assigned by cloudflare.
-![nameservers](https://user-images.githubusercontent.com/76528474/235352962-2197a954-1443-4dbf-8d3e-0305b7d613e3.png)
+![name servers](https://user-images.githubusercontent.com/76528474/235352962-2197a954-1443-4dbf-8d3e-0305b7d613e3.png)
 
 once that is done, click on `check nameservers`.
 ![check nameservers](https://user-images.githubusercontent.com/76528474/235352972-837b7ba6-9892-417f-840b-7682d04a87c5.png)
@@ -42,6 +42,7 @@ once that is done, click on `check nameservers`.
 it might take a while (around an hour) but you will recieve an email once the process is done. 
 
 ### ssl.
+
 okay so you will have to select ssl/tls from the sidebar on the left.
 ![sidebar](https://user-images.githubusercontent.com/76528474/235352891-ce76c63e-267a-4302-835f-dd3f261260f5.png)
 
@@ -50,5 +51,6 @@ and then in the overview, you'll have to make sure that the encryption mode is f
 
 
 ### woo shiny lockpad!1!
+
 ayyy we now have this shiny little lockpad :)
 ![lockpad](https://user-images.githubusercontent.com/76528474/235352983-68e9991d-ceb6-43fe-b4d6-ac165bc95bda.png)

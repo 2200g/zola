@@ -2,6 +2,9 @@ base_url = "https://aadi.net.in"
 compile_sass = false
 build_search_index = false
 
+title = "aadi."
+description = "aadi's personal site <3"
+
 [markdown]
 highlight_code = true
 

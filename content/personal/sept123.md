@@ -12,3 +12,4 @@ but yes i never really expected to have someone read through the site and thats 
 
 ok bai
 
+oh and i should thank everyone who has

@@ -31,10 +31,13 @@ making a .service file for systemd,
 ```yaml
 [Unit]
 Description=My Youtube
+
 [Service]
 ExecStart=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
-Exec=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
 ExecReload=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
+
+[Install]
+WantedBy=multi-user.target
 ```
 ---
 and also setting up a redirect plugin to make everything youtube reroute to my instance of yt, using a firefox plugin called [redirector](https://addons.mozilla.org/en-US/firefox/addon/redirector/).

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+<head>
+  <meta charset="utf-8">
+  {% if page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>aadi's journal</title>
+  {% endif %}
+  <meta name="description" content="aadi's journal!!! (https://aadi.net.in/)">
+  <meta name="author" content="aadi.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/personal.css">
+  <link rel="icon" type="image/png" href="/favicon.ico">
+</head>
+{% block content %}
+
+<body>
+  <header>
+    <h1>{{ section.title }}</h1>
+    <hr />
+    <figure> <img alt="face reveal haha"
+	            src="https://user-images.githubusercontent.com/76528474/235352817-405c3af2-914a-41c3-bff2-df0e674006ec.jpg"
+		            width="216px" /><figcaption>- me. </figcaption>
+    </figure>
+  </header>
+  <p>
+    hai, i am aadi. i was born on the 1st of jan 2008 (cool birthday, im aware).<br>
+    today is the 26th of april, 2023 and i decided to have my own <code>/personal</code> page :P <br>
+    <hr />
+
+  <div class="posts">
+    {% for page in paginator.pages %}
+    <article class="post" id="{{ page.title }}">
+      <h4><a href="#{{ page.title }}"> # </a> {{ page.title }} ({{ page.date }})</h4>
+      <div class="post__summary">
+        {{ page.content | safe }}
+	<hr> </div>
+    </article>
+    {% endfor %}
+  </div>
+  <nav class="pagination">
+    {% if paginator.previous %}
+    <a class="previous" href="{{ paginator.previous }}">‹ previous.</a>
+    {% endif %}
+    {% if paginator.next %}
+    <a class="next" href="{{ paginator.next }}">next. ›</a>
+    {% endif %}
+  </nav>
+</body>
+{% endblock content %}

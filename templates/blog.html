@@ -5,8 +5,8 @@
 <div id="blog-list">
 	{% for page in paginator.pages %}
 	<div id="blog-summ">
-		<h3><a href="{{ page.permalink | safe }}">{{ page.title }} </a></h3> 
-		<h5>{{ page.date }}</h5>
+    <h3><a href="{{ page.permalink | safe }}"><li>{{ page.title }} </li></a></h3> 
+    <p><small>[{{ page.date }}]</small></p>
 		<p>{{ page.summary | safe }}</p>
 		<a href="{{ page.permalink | safe }}" id="cont-read">read more...</a>
 	</div>

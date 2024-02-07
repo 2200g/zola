@@ -11,7 +11,7 @@ i think it looks good and i implemented mobile support too yep anyways uh ok
 
 oh yeah i have also somehow reached 1k viewers - that makes me happy
 
-![image](https://github.com/2200g/anox/assets/76528474/305a0bac-7de1-4bc1-aeb6-5ac298d6c7f5)
+![image](https://github.com/2200g/site/assets/76528474/5f1ada32-b4cb-4a72-8da3-c9a30d6357d8)
 
 so therefore i shall now also put up a buymeacoffee and a XMR yes ok 
 XMR: 8AvrcZgpBqD7CXkajaLBku5mdjGsdRs9mc2comiJxY2ngDMFWGj6SzuDL5gDUTYVJh8ZjCG2Y2B5HEkBVNcf8mVq895Yb3r 

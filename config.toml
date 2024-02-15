@@ -6,7 +6,7 @@ title = "aadi."
 description = "aadi's personal site <3"
 
 generate_feed = true
-feed_filename = atom.xml
+feed_filename = "atom.xml"
 
 [markdown]
 highlight_code = true

@@ -5,6 +5,9 @@ build_search_index = false
 title = "aadi."
 description = "aadi's personal site <3"
 
+generate_feed = true
+feed_filename = atom.xml
+
 [markdown]
 highlight_code = true
 
